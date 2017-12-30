@@ -15,4 +15,5 @@ function johnLennonFacts(array){
     newarray.push(array.slice(i,i+1) + "!!!")
     i = i+1
   }
+  return newarray
 }
