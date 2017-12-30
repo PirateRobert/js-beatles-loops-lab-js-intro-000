@@ -1,5 +1,5 @@
 function theBeatlesPlay(arrayM,arrayI){
-  var newarray = {};
+  var newarray = [];
   for (let i = 0;i<arrayM.length; i++){
     var musician = arrayM.slice(i,i+1);
     var instrument = arrayI.slice(i,i+1);
@@ -9,7 +9,7 @@ function theBeatlesPlay(arrayM,arrayI){
 }
 
 function johnLennonFacts(array){
-  var newarray = {};
+  var newarray = [];
   var i = 0;
   while (i < array.length){
     newarray.push(array.slice(i,i+1) + "!!!");
